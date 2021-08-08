@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: #88ce66;
+    font-family: 'Nunito', sans-serif;
+}
+.container{
+    width: 30em;
+}
+.head__section img{
+    display: block;
+    margin: 0 auto;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.head__section p{
+    text-align: center;
+    color: #fff;
+}
+.social__links ul li{
+    width: 100%;
+    margin: 1.2rem 0;
+    padding: 0.4rem 0.8rem;
+    background: rgba( 255, 255, 255, 0.1 );
+    backdrop-filter: blur( 0px );
+    border-radius: 5px;
+    transition: background 0.25s;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+}
+.js-tilt-glare{
+    border-radius: 5px;
+}
+.social__links ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    font-size: 1rem;
+}
+.social__links ul li a i{
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.8rem;
+    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.4) translateZ(50px);
+    transition: 0.25s;
+}
+.social__links ul li a span{
+    line-height: 1.4rem;
+}
+.social__links ul .instagram:hover{
+    background: #E1306C;
+}
+.social__links ul .linkedin:hover{
+    background: #0077b5;
+}
+.social__links ul .facebook:hover{
+    background:#4267B2;
+}
+.social__links ul .twitter:hover{
+    background:#1DA1F2;
+}
+.social__links ul .github:hover{
+    background: #333;
+} 
+@media only screen and (max-width: 549px) {
+    .container{
+        width: 88vw;
+    }
+  }
