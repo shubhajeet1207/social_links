@@ -13,7 +13,7 @@ body{
     display: grid;
     place-items: center;
     background: #856ee1;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .container{
     width: 30em;
